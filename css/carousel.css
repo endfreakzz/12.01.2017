@@ -159,6 +159,43 @@ footer h4 a {
     background-color: #1f2236;
 }
 
+.back {
+	text-align: right;
+	padding: 10px 0;
+	font-size: 10px;
+	margin-top: 2px;
+	position: fixed;
+	bottom: 5px;
+	right: 20px;
+}
+
+.back-link {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 11px 7px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-link:hover, .back-link:focus {
+    background: rgba(233, 233, 233, 0.1);
+}
+
+.back-link-icon {
+    background: url("../images/back-arrow.svg") no-repeat;
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.container a:hover{
+	text-decoration: none;
+}
+
 .copyright {
+    margin-bottom: 40px;
 	text-align: center;
 	color: #52566e;
